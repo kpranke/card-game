@@ -1,6 +1,6 @@
 #Clubs (♣),Hearts (♥), Diamonds (♦), Spades (♠)
 colors = ["black", "red"]
-icons = [♥, ♦, ♣, ♠]
+icons = ["♥", "♦", "♣", "♠"]
 
 values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
 
@@ -8,7 +8,7 @@ class Symbol:
 	'''A class to store card symbols.'''
 	def __init__(self, icon: str, color: str):
 		'''Initialize a symbol and set its icon and color.'''
-	    self.icon = icon
+		self.icon = icon
 	    self.color = color
 
 	def show(self):
