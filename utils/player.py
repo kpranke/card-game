@@ -1,6 +1,8 @@
+from card import Card
+
 class Player:
 	'''A class to manage a player'''
-	def __init__(self, name);
+	def __init__(self, name: str);
 		self.name = name
 
 

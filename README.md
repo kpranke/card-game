@@ -1,5 +1,5 @@
 # Description
-This project is a part of the Becode.org programme. The task is to build a basis for a card game by using OOP in Python.
+This project is a part of the [Becode.org AI Bootcamp] (https://becode.org/learn/ai-bootcamp/) programme. The task is to build a basis for a card game by using OOP in Python.
 
 ## main.py
 The main file, *main.py*, contains... 
