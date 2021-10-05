@@ -19,7 +19,7 @@ class Player:
 		shuffle(self.cards)
 		card = self.cards.pop()
 		self.history.append(card)
-		print(f"{self.name} {self.turn_count} played: {card}")
+		print(f"{self.name} in turn {self.turn_count} played: {card}")
 		return card
 
 class Deck:
@@ -30,7 +30,7 @@ class Deck:
 		self.players = []
 
 	def fill_deck(self):	
-		icons = ["Clubs", "Hearts", "Diamonds", "Spades"]
+		icons = ["Club", "Heart", "Diamond", "Spade"]
 		colors = ["black", "red"]
 		values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
 		for icon in icons:  
@@ -48,7 +48,7 @@ class Deck:
 	def shuffle(self):
 		''' Shuffles all cards in the list of cards. '''
 		shuffle(self.cards)
-		print("Deck shuffled")
+		print("The deck has been shuffled.")
 
 	def distribute(self, players: list):
 		'''
@@ -59,7 +59,7 @@ class Deck:
 				if len(self.cards) > 0:
 					card = self.cards.pop()
 					player.cards.append(card)
-		print('Cards distributed.')
+		print('Cards have been distributed.')
 
 newdeck = Deck()
 newdeck.fill_deck()
