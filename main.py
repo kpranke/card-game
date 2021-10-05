@@ -3,3 +3,6 @@
 from card import *
 from player import Player
 from game import *
+
+
+deck = Deck()

@@ -1,4 +1,8 @@
-from card import Cardsfrom player import Player
+
+from random import shuffle
+
+from card import Cardsfrom 
+from player import Player
 
 
 class Deck:
@@ -15,8 +19,10 @@ class Deck:
         for element in self.cards:
             list_of_cards.append(element.show())
         return list_of_cards
-    def shuffle():
+
+    def shuffle(self):
     	''' Shuffles all cards in the list of cards. '''
+        random.shuffle(self.cards)
 
     def distribute():
     	'''
