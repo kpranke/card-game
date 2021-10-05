@@ -2,7 +2,7 @@
 # color = ["black", "red"], icon = ["Clubs", "Hearts", "Diamonds", "Spades"], value = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
 
 class Symbol:
-	'''A class to store the card symbols.'''
+	'''A class to store the card symbols: icons and colors'''
 
 	def __init__(self, color, icon):
 		'''Initialize a symbol and set its icon and color.'''
@@ -15,7 +15,7 @@ class Symbol:
 		return f"{self.color}, {self.icon}"
 
 class Card(Symbol):
-	'''A class to create a card. This class inherits from Symbol'''
+	'''A class to create a card. This class inherits icon and color from the Symbol class and adds a value.'''
 
 	def __init__(self, color, icon, value):
 		super().__init__(color, icon)
