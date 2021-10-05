@@ -3,7 +3,7 @@ This project is a part of the [Becode.org AI Bootcamp](https://becode.org/learn/
 ![Card game!](https://media.giphy.com/media/3o7TKP35NXE4rWwXjW/giphy.gif)
 
 ## main.py
-The main file, *main.py*, contains... 
+The main file, *main.py*, contains code necessary to initialize the game.
 
 ## /utils/
 
@@ -11,13 +11,14 @@ The main file, *main.py*, contains...
 The *card.py* file contains the `Symbol` and `Card` classes.
 
 ## /utils/player.py
-The *player.py* file contains the `Player` class.
+The *player.py* file contains the `Player` and `Deck` classes.
 
 ## /utils/game.py
+The *gane.py* file contains the `Board` class.
 
 # Installation
 # Usage
-
+In irder to start the game run *main.py* in your command line.
 
 
 
