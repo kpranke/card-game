@@ -1,5 +1,7 @@
 from random import shuffle
-from card import Card
+
+from utils.card import Card
+#from card import Card
 
 class Player:
 	'''A class to manage a player'''
@@ -64,10 +66,3 @@ class Deck:
 					player.cards.append(card)
 		print('Cards have been distributed.') # move to game
 
-newdeck = Deck()
-newdeck.fill_deck()
-newdeck.shuffle()
-
-player_1 = Player('Ian')
-player_2 = Player('Jon')
-player_3 = Player('Ina')

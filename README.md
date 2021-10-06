@@ -7,6 +7,9 @@ For the moment, only the basic functionalities have been implemented:
 - A deck of cards is created for the provided number of players.
 - Cards are shuffled and distributed among the provided number of players. - Each players plays a card until there is no cards left.
 
+# Objectives
+
+
 # Repo architecture
 ```
 Card Game Challenge

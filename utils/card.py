@@ -16,7 +16,7 @@ class Card(Symbol):
 
 	def __init__(self, color, icon, value):
 		super().__init__(color, icon)
-        '''Initialize a card that inherits an icon and a color from Symbol and set its value.'''
+		'''Initialize a card that inherits an icon and a color from Symbol and set its value.'''
 		self.value = value
 		
 
@@ -29,13 +29,3 @@ class Card(Symbol):
 
 
 
-mySymbol = Symbol('black', 'spades')
-print(mySymbol)
-print(mySymbol.color)
-print(mySymbol.icon)
-
-myCard = Card('black', 'spades','4')
-print(myCard)
-print(myCard.color)
-print(myCard.icon)
-print(myCard.value)
