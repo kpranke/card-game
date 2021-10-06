@@ -16,7 +16,7 @@ class Player:
 
 
 	def play(self, turn_count : int):
-		'''WRITE A BETTER DESCRIPTION randomly pick a Card in cards.'''
+		'''Player picks a card in cards.'''
 		shuffle(self.cards)
 		card = self.cards.pop()
 		self.history.append(card)
