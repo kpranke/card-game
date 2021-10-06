@@ -8,7 +8,6 @@ class Player:
 	def __init__(self, name: str):
 		self.name = name
 		self.cards = [] #cards assigned
-		self.turn_count = 0 
 		self.number_of_cards = 0 
 		self.history = [] #what cards were assigned to the player
 
@@ -16,12 +15,12 @@ class Player:
 		return self.name	
 
 
-	def play(self):
+	def play(self, turn_count : int):
 		'''WRITE A BETTER DESCRIPTION randomly pick a Card in cards.'''
 		shuffle(self.cards)
 		card = self.cards.pop()
 		self.history.append(card)
-		print(f"{self.name} in turn {self.turn_count} played: {card}")
+		print(f"{self.name} in turn {turn_count} played: {card}")
 		return card
 
 class Deck:

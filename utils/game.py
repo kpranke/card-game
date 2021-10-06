@@ -23,9 +23,9 @@ class Board:
 		deck.distribute(self.players)
 
 		while self.turn_count < 26:
-			print(f"Starting turn {self.turn_count}")
 			self.turn_count += 1
+			print(f"Starting turn {self.turn_count}")
 			for player in self.players:
-				card = player.play()
+				card = player.play(self.turn_count)
 				self.history_cards.append(card)
 				self.active_cards.append(card)
