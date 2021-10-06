@@ -9,7 +9,12 @@ For the moment, only the basic functionalities have been implemented:
 - Cards are shuffled and distributed among the two players. Each player plays a card until there is no cards left.
 
 ## Objectives
-
+- Make a good usage of classes.
+- Use Object-Oriented-Programming (OOP).
+- Use imports in a clean way.
+- Use a clean architecture.
+- Structure a project.
+- Go deeper in object inheritance.
 
 ## Repo architecture
 ```
