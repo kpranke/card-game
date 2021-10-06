@@ -3,6 +3,10 @@ This project is a part of the [Becode.org AI Bootcamp](https://becode.org/learn/
 
 ![Card game!](https://media.giphy.com/media/3o7TKP35NXE4rWwXjW/giphy.gif)
 
+For the moment, only the basic functionalities have been implemented:
+- A deck of cards is created for the provided number of players.
+- Cards are shuffled and distributed among the provided number of players. - Each players plays a card until there is no cards left.
+
 #Project architecture
 
 ## main.py
@@ -20,7 +24,7 @@ The *gane.py* file contains the `Board` class.
 # Installation
 `git clone` this repository into your local environment. 
 
-# How to Use
+# Usage
 In order to start the game run *main.py* in your command line.
 
 ## Timeline
