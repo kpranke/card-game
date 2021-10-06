@@ -1,9 +1,6 @@
 from utils.card import Card
 from utils.player import Player, Deck
 
-# from card import Card
-# from player import Player, Deck
-
 
 class Board:
     """A class to stores a board"""

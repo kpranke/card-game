@@ -2,8 +2,6 @@ from random import shuffle
 
 from utils.card import Card
 
-# from card import Card
-
 
 class Player:
     """A class to manage a player"""
