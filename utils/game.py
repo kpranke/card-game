@@ -17,4 +17,4 @@ class Board:
 		''' 
 		Starts the game, fills a Deck, distributes cards of the Deck to the players.
 		'''	
-
+#call distribute

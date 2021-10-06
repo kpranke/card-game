@@ -1,8 +1,8 @@
 # Import everything you need to start the game!
 # Start the game. You should only run this file to have the game running.
 
-from utils.player import *
-from utils.game import Board
+from .utils import player, game, card
+
 
 
 #if __name__ == '__main__':

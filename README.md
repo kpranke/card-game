@@ -1,12 +1,12 @@
 # Description
-This project is a part of the [Becode.org AI Bootcamp](https://becode.org/learn/ai-bootcamp/) programme. The task is to build a basis for a card game by using OOP in Python.
+This project is a part of the [Becode.org AI Bootcamp](https://becode.org/learn/ai-bootcamp/) programme. The task is to build a basis for a card game by using OOP in Python. 
 
 ![Card game!](https://media.giphy.com/media/3o7TKP35NXE4rWwXjW/giphy.gif)
 
+#Project architecture
+
 ## main.py
 The main file, *main.py*, contains code necessary to initialize the game.
-
-## /utils/
 
 ## /utils/card.py
 The *card.py* file contains the `Symbol` and `Card` classes.
@@ -23,6 +23,10 @@ The *gane.py* file contains the `Board` class.
 # How to Use
 In order to start the game run *main.py* in your command line.
 
+## Timeline
+*October 2021*
+This is the first OOP project within the [Becode.org AI Bootcamp](https://becode.org/learn/ai-bootcamp/) to test our understanding of the OOP concept in Python (approx. 3 weeks from the start of the programme). Time limit: 3 days
 
-
+## Personal situation
+I am currently participating in the [Becode.org AI Bootcamp](https://becode.org/learn/ai-bootcamp/) to upskill into career in data science.
 

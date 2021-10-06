@@ -33,7 +33,8 @@ class Deck:
 		icons = ["Club", "Heart", "Diamond", "Spade"]
 		colors = ["black", "red"]
 		values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
-		for icon in icons:  
+		for icon in icons:
+		#add colors if, then...  
 			for value in values:
 				self.cards.append(Card("color", icon, value))
 
@@ -59,7 +60,7 @@ class Deck:
 				if len(self.cards) > 0:
 					card = self.cards.pop()
 					player.cards.append(card)
-		print('Cards have been distributed.')
+		print('Cards have been distributed.') # move to game
 
 newdeck = Deck()
 newdeck.fill_deck()
