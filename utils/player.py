@@ -64,4 +64,4 @@ class Deck:
                 if len(self.cards) > 0:
                     card = self.cards.pop()
                     player.cards.append(card)
-        print("Cards have been distributed.")  # move to game
+        print("Cards have been distributed.")
