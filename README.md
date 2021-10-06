@@ -18,9 +18,9 @@ Card Game Challenge
 │   _utils         :directory contains all modules required to run the game
 │   │
 │   │ card.py      :Python script file with the Symbol and Card classes 
-│	│
+│   │
 │   │ game.py      :Python script file with the Board class
-│	│
+│   │
 │   │ player.py    :Python script file with the Player and Deck classes
 
 ```
