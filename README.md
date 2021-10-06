@@ -15,7 +15,7 @@ Card Game Challenge
 │   main.py        :Python script file necessary to initialize the game
 │   
 │__   
-│   _utils         :directory contains all modules required to run the game
+│   utils         :directory contains all modules required to run the game
 │   │
 │   │ card.py      :Python script file with the Symbol and Card classes 
 │   │
