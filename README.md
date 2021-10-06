@@ -7,7 +7,7 @@ For the moment, only the basic functionalities have been implemented:
 - A deck of cards is created for the provided number of players.
 - Cards are shuffled and distributed among the provided number of players. - Each players plays a card until there is no cards left.
 
-#Project architecture
+# Project architecture
 
 ## main.py
 The main file, *main.py*, contains code necessary to initialize the game.
@@ -27,10 +27,10 @@ The *gane.py* file contains the `Board` class.
 # Usage
 In order to start the game run *main.py* in your command line.
 
-## Timeline
+# Timeline
 *October 2021*
 This is the first OOP project within the [Becode.org AI Bootcamp](https://becode.org/learn/ai-bootcamp/) to test our understanding of the OOP concept in Python (approx. 3 weeks from the start of the programme). Time limit: 3 days
 
-## Personal situation
+# Personal situation
 I am currently participating in the [Becode.org AI Bootcamp](https://becode.org/learn/ai-bootcamp/) to upskill into career in data science.
 
