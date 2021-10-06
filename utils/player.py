@@ -4,7 +4,7 @@ from utils.card import Card
 
 
 class Player:
-    """A class to manage a player"""
+    """A class to manage a player."""
 
     def __init__(self, name: str):
         self.name = name
@@ -28,11 +28,12 @@ class Deck:
     """A class to store a deck of cards."""
 
     def __init__(self):
-        """Initialize a deck of cards"""
+        """Initialize a deck of cards."""
         self.cards = []
         self.players = []
 
     def fill_deck(self):
+    	"""Fill a deck of cards."""
         icons = ["Club", "Heart", "Diamond", "Spade"]
         values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
         for icon in icons:
@@ -44,14 +45,14 @@ class Deck:
                 self.cards.append(Card(color, icon, value))
 
     def __str__(self):
-        """Shows a deck of cards"""
+        """Show a deck of cards."""
         string_of_cards = ""
         for element in self.cards:
             string_of_cards += element.__str__() + " "
         return string_of_cards
 
     def shuffle(self):
-        """Shuffles all cards in the list of cards."""
+        """Shuffle all cards in the list of cards."""
         shuffle(self.cards)
         print("The deck has been shuffled.")
 

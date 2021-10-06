@@ -1,5 +1,5 @@
 class Symbol:
-    """A class to store the card symbols: icons and colors"""
+    """A class to store the card symbols: icons and colors."""
 
     def __init__(self, color, icon):
         """Initialize a symbol and set its icon and color."""
@@ -25,4 +25,4 @@ class Card(Symbol):
         return f"{self.color}, {self.icon}, {self.value}"
 
     def create_list_of_cards(self):
-        """Creates a list with 4 cards"""
+        """Create a list with 4 cards."""

@@ -3,7 +3,7 @@ from utils.player import Player, Deck
 
 
 class Board:
-    """A class to stores a board"""
+    """A class to store a board."""
 
     def __init__(self, players: list):
         self.players = players
@@ -13,7 +13,7 @@ class Board:
 
     def start_game(self):
         """
-        Starts the game, fills a Deck, distributes cards of the Deck to the players.
+        Start the game, fill the deck, distribute cards of the deck to the players and loop over turns.
         """
         print("The game has started.")
         deck = Deck()
