@@ -1,6 +1,3 @@
-#Clubs (♣),Hearts (♥), Diamonds (♦), Spades (♠)
-# color = ["black", "red"], icon = ["Clubs", "Hearts", "Diamonds", "Spades"], value = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
-
 class Symbol:
 	'''A class to store the card symbols: icons and colors'''
 
@@ -19,8 +16,7 @@ class Card(Symbol):
 
 	def __init__(self, color, icon, value):
 		super().__init__(color, icon)
-		
-        # Initialize a card that inherits an icon and a color from Symbol and set its value.
+        '''Initialize a card that inherits an icon and a color from Symbol and set its value.'''
 		self.value = value
 		
 

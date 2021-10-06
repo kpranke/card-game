@@ -7,19 +7,23 @@ For the moment, only the basic functionalities have been implemented:
 - A deck of cards is created for the provided number of players.
 - Cards are shuffled and distributed among the provided number of players. - Each players plays a card until there is no cards left.
 
-# Project architecture
+# Repo architecture
+```
+Card Game Challenge
+│
+│   README.md      :explains the project
+│   main.py        :Python script file necessary to initialize the game
+│   
+│__   
+│   _utils         :directory contains all modules required to run the game
+│   │
+│   │ card.py      :Python script file with the Symbol and Card classes 
+│	│
+│   │ game.py      :Python script file with the Board class
+│	│
+│   │ player.py    :Python script file with the Player and Deck classes
 
-## main.py
-The main file, *main.py*, contains code necessary to initialize the game.
-
-## /utils/card.py
-The *card.py* file contains the `Symbol` and `Card` classes.
-
-## /utils/player.py
-The *player.py* file contains the `Player` and `Deck` classes.
-
-## /utils/game.py
-The *gane.py* file contains the `Board` class.
+```
 
 # Installation
 `git clone` this repository into your local environment. 

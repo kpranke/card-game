@@ -29,14 +29,16 @@ class Deck:
 		self.cards = []
 		self.players = []
 
-	def fill_deck(self):	
+	def fill_deck(self):
 		icons = ["Club", "Heart", "Diamond", "Spade"]
-		colors = ["black", "red"]
 		values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
 		for icon in icons:
-		#add colors if, then...  
+			if icon == "Heart" or icon =="Diamond":
+				color = "red"
+			else:
+				color = "black"	
 			for value in values:
-				self.cards.append(Card("color", icon, value))
+				self.cards.append(Card(color, icon, value))
 
 
 	def __str__(self): 
@@ -69,6 +71,3 @@ newdeck.shuffle()
 player_1 = Player('Ian')
 player_2 = Player('Jon')
 player_3 = Player('Ina')
-newdeck.distribute([player_1, player_2, player_3])
-
-player_1.play()
