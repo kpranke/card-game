@@ -32,10 +32,7 @@ In order to start the game run *main.py* in your command line.
 
 Time limit: 3 days
 
-This is the first OOP project within the [Becode.org AI Bootcamp](https://becode.org/learn/ai-bootcamp/) to test our understanding of the OOP concept in Python (approx. 3 weeks from the start of the programme). 
-
-[Full timeline of the AI programme](https://github.com/becodeorg/ANT-Theano-3-34/blob/main/assets/becode_pedagogy_timeline_ai.jpg)
-
+This is the first OOP project within the [Becode.org AI Bootcamp](https://becode.org/learn/ai-bootcamp/) to test our understanding of the OOP concept in Python (approx. 3 weeks from the start of the programme). The full duration of the programme is 7 months. 
 
 # Personal situation
 I am currently participating in the [Becode.org AI Bootcamp](https://becode.org/learn/ai-bootcamp/) to upskill into a career in data science. 
